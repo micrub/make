@@ -1,6 +1,5 @@
 src
 node_modules/
-src/
 .tern-port
 .vscode/*.log
 

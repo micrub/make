@@ -1,5 +1,6 @@
 {
   "name": "make.js",
+  "type": "module",
   "version": "0.8.1",
   "description": "Make like Task runner",
   "main": "index.js",

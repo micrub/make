@@ -1,8 +1,13 @@
-var make = module.exports;
+import log from './src/log';
+import parser from './src/parser';
+import CLI from './src/cli';
+import Make from './src/make';
+import Template from './src/template';
 
-make.log = require('./src/log');
-make.parser = require('./src/parser');
-
-make.CLI = require('./src/cli');
-make.Make = require('./src/make');
-make.Template = require('./src/template');
+export default {
+  log,
+  parser,
+  CLI,
+  Make,
+  Template
+};

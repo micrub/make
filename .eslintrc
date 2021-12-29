@@ -19,7 +19,6 @@
           "VariableDeclarator": true
         }
       }
-    ],
-    "promise/param-names": 0
+    ]
   }
 }
