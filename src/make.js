@@ -270,8 +270,7 @@ var Make = function (_CLI) {
   return Make;
 }(CLI);
 
-exports.default = Make;
 
 
 Make.UNKNOWN_TARGET = UNKNOWN_TARGET;
-module.exports = exports.default;
+export default Make;

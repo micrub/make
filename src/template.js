@@ -342,5 +342,4 @@ var Template = function (_CLI) {
   return Template;
 }(_cli2.default);
 
-exports.default = Template;
-module.exports = exports.default;
+export default Template;

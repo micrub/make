@@ -17,7 +17,7 @@ var _exists = _fs2.default.existsSync;
 var debug = require('debug')('make:util');
 
 // FS util mixin
-var util = module.exports = {
+var util = {
   basename: function basename(filepath) {
     return _path2.default.basename(filepath);
   },
@@ -62,3 +62,5 @@ var util = module.exports = {
     }
   }
 };
+
+export default util

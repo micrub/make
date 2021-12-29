@@ -234,11 +234,10 @@ var CLI = function (_events$EventEmitter) {
   return CLI;
 }(events.EventEmitter);
 
-exports.default = CLI;
-
 
 CLI.PADDING = PADDING;
 
 Object.assign(CLI.prototype, log);
 Object.assign(CLI.prototype, fsutil);
-module.exports = exports.default;
+export default CLI;
+

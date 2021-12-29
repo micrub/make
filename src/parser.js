@@ -1,8 +1,7 @@
 'use strict';
 
-module.exports = parse;
 
-function parse(content) {
+export default function parse(content) {
 
   var lines = content.split(/\r?\n/);
 
